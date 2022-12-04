@@ -27,7 +27,7 @@ dog_images = [
 # Create random user info
 8.times do
     User.create(
-        username: Faker::Name.unique.name,
+        username: Faker::Internet.username(specifier: 5..10),
         email: Faker::Internet.email,
         password_digest: Faker::Internet.password,
     )
