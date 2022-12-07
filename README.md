@@ -41,6 +41,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 - nmutinda02@gmail.com
 
 ### Live Backend End-Point Link
+- [Live Backend](https://paw-finder-production.up.railway.app/)
+- Sample endpoints are `/dogs` and `/users`.
 
 ### Frontend Repository Link
 - [PawFinder Frontend](https://github.com/nelsonmutindamwanzia/pawfinder-frontend)
