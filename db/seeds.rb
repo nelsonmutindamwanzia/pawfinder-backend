@@ -40,7 +40,7 @@ end
     name: Faker::Creature::Dog.name,
     breed: Faker::Creature::Dog.breed,
     image_url: dog_images[i],
-    last_seen: Faker::Lorem.paragraph(sentence_count: 20),
+    last_seen: Faker::Lorem.paragraph(sentence_count:15),
     user_id: user.id,
     )
 end
