@@ -80,7 +80,8 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: paw_finder_production
-  username: paw_finder
-  password: <%= ENV["PAW_FINDER_DATABASE_PASSWORD"] %>
+  # <<: *default
+  # database: paw_finder_production
+  # username: paw_finder
+  # password: <%= ENV["PAW_FINDER_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
