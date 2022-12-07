@@ -3,9 +3,9 @@
 ### General Information
 **PawFinder** Is a web application that aims to make the process of searching for lost pets easier and rid distraught pet owners of unnecessary burdens. PawFinder uses a RESTful API that allows its users to post their missing pets and delete the posts after finding them.
 ### Technologies/Features 
-1. React JS
-2. CSS 
-3. Ruby
+1. Railway App for hosting.
+2. Rails
+3. Ruby on Rails
 4. Postgresql
 ### Backend Setup
 1. Fork and clone this repository and navigate to the local directory then run `bundle install` to install all the required gems.
@@ -41,5 +41,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 - nmutinda02@gmail.com
 
 ### Live Backend End-Point Link
+
+### Frontend Repository Link
+- [PawFinder Frontend](https://github.com/nelsonmutindamwanzia/pawfinder-frontend)
 
 # PawFinder by Mwanzia Nelson Mutinda
