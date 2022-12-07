@@ -1,24 +1,45 @@
-# README
+# PawFinder
+## Author: Mwanzia Nelson Mutinda
+### General Information
+**PawFinder** Is a web application that aims to make the process of searching for lost pets easier and rid distraught pet owners of unnecessary burdens. PawFinder uses a RESTful API that allows its users to post their missing pets and delete the posts after finding them.
+### Technologies/Features 
+1. React JS
+2. CSS 
+3. Ruby
+4. Postgresql
+### Backend Setup
+1. Fork and clone this repository and navigate to the local directory then run `bundle install` to install all the required gems.
+2. Run `rails s` or `rails server` to run the server on port 9292. You can also access it by clicking on this link [here](http://localhost:3000).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Future Updates
+1. Add a serializer for displaying nested dogs information
 
-Things you may want to cover:
+### Copyright and License (MIT)
+Copyright (c) 2022 Mwanzia Nelson Mutinda
 
-* Ruby version
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
 
-* System dependencies
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
 
-* Configuration
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-* Database creation
+### Contact
+- [Nelson Mutinda](https://github.com/nelsonmutindamwanzia)
+- nmutinda02@gmail.com
 
-* Database initialization
+### Live Backend End-Point Link
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# PawFinder by Mwanzia Nelson Mutinda
