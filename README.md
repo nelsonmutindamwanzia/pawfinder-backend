@@ -9,7 +9,7 @@
 4. Postgresql
 ### Backend Setup
 1. Fork and clone this repository and navigate to the local directory then run `bundle install` to install all the required gems.
-2. Run `rails s` or `rails server` to run the server on port 9292. You can also access it by clicking on this link [here](http://localhost:3000).
+2. Run `rails s` or `rails server` to run the server on port 3000. You can also access it by clicking on this link [here](http://localhost:3000).
 
 ### Future Updates
 1. Add a serializer for displaying nested dogs information
