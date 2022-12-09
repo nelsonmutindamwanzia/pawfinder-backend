@@ -15,7 +15,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     end
 
     allow do
-      origins "https://paw-finder-production.up.railway.app/me"
+      origins "https://paw-finder-production.up.railway.app"
   
       resource "*",
         headers: :any,
