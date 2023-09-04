@@ -81,7 +81,7 @@ test:
 #
 production:
   <<: *default
-  # database: paw_finder_production
-  # username: paw_finder
-  # password: <%= ENV["PAW_FINDER_DATABASE_PASSWORD"] %>
+  database: paw_finder_production
+  username: paw_finder
+  password: <%= ENV["PAW_FINDER_DATABASE_PASSWORD"] %>
   url: <%= ENV["DATABASE_URL"] %>
