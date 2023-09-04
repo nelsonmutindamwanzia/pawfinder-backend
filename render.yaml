@@ -1,6 +1,6 @@
 databases:
       - name: paw_finder_production
-        databaseName: paw_finder
+        databaseName: paw_finder_production
         user: paw_finder
 
   services:
