@@ -3,7 +3,7 @@ databases:
         databaseName: paw_finder
         user: paw_finder
 
-   services:
+  services:
       - type: web
         name: paw_finder
         env: ruby
