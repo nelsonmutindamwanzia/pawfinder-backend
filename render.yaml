@@ -1,6 +1,6 @@
 databases:
-      - name: paw_finder_production
-        databaseName: paw_finder_production
+      - name: paw_finder
+        databaseName: paw_finder
         user: paw_finder
 
   services:
@@ -12,7 +12,7 @@ databases:
         envVars:
           - key: DATABASE_URL
             fromDatabase:
-              name: paw_finder_production
+              name: paw_finder
               property: connectionString
           - key: RAILS_MASTER_KEY
             sync: false
